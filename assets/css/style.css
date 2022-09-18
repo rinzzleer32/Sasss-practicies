@@ -1,0 +1,89 @@
+/* Comentatarios compilados*/
+.input-text, .special-text {
+  line-height: 1.5em;
+  font-size: 50px;
+  font-family: "Times New Roman", serif;
+  font-style: italic;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 15px;
+  font-family: "Arial", sans-serif;
+  border: 1px;
+}
+
+h1 {
+  font-family: "Times New Roman", serif;
+  font-size: 20px;
+}
+
+.special-tittle {
+  font-family: "Times New Roman", serif;
+}
+
+.btn {
+  padding: 15px 30px;
+  background-color: salmon;
+}
+.btn:hover {
+  background-color: chocolate;
+}
+.btn-lg {
+  font-size: 30 px;
+}
+.btn-lg-bg-blue {
+  background-color: blue;
+}
+.btn span {
+  background-color: blue;
+  font-style: italic;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  border: solid 1px red;
+}
+@media (min-width: 460px) {
+  .container {
+    width: 80%;
+  }
+}
+@media (min-width: 720px) {
+  .container {
+    width: 95%;
+  }
+}
+
+.card {
+  display: flex;
+  flex-wrap: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.column {
+  width: 40.1162790698%;
+  background-color: rgba(7, 207, 33, 0.5);
+  border: 1px solid #023b09;
+  box-shadow: 0 0 5px #75fa86;
+}
+
+.column-footer {
+  display: flex;
+  flex-wrap: inline-flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.navigation {
+  display: flex;
+  flex-wrap: flex;
+  justify-content: start;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */

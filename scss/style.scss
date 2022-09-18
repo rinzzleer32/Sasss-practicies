@@ -1,0 +1,24 @@
+
+/* Comentatarios compilados*/
+
+//comentarios sin compilar
+
+//llevar una arquitectura limpia entre utilitdades y el css
+
+//variables importadas
+@import "./variables";
+
+//mixins importados
+@import "./mixins";
+
+//placeholders importados
+@import "./placeholder";
+
+//import bases
+@import "./base";
+
+//import buttons
+@import "./buttons";
+
+//import layout
+@import "./layaout";

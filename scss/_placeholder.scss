@@ -1,0 +1,11 @@
+
+
+%fontSizeLarge {
+    line-height: 1.5em;
+    //agrupacion de propiedades de font
+    font: {
+        size: 50px;
+        family: $font-alternative;
+        style: italic;
+    }
+}

@@ -1,0 +1,24 @@
+
+se debe compilar primero los archivos Scss a css para que funcionen
+Live Sass compilar es una extencion y una forma para hacerlo
+
+El archivo mincss reduce espacios para generar mejor rendimeinto
+para agregar modificar esto en settings.json
+"liveSassCompile.settings.formats": [
+
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "./assets/css/",
+           
+        },
+        {
+            "format": "compressed",
+            "extensionName": ".min.css",
+            "savePath": "./assets/css/",
+            
+        }
+    ],
+
+archivos parciales : devide en componentes los archivos para llamrlo
+solo cuando se nacesario

@@ -1,0 +1,44 @@
+@use "sass:math";
+.container {
+ 
+  max-width: 1200px;
+  margin: auto;
+  border: solid 1px red;
+  @media(min-width: map-get($viewport, "sm")) {
+    width: 80%;
+  }
+  @media(min-width: map-get($viewport, "md")) {
+    width: 95%;
+  }
+}
+
+.card {
+    // import mixing from _mixins.scss
+    @include flex(flex,start,center);
+}
+.column {
+  width: math.div(345, 860)*100%;
+  background-color: rgba($color, .5);
+  //mas oscuro
+  border: 1px solid darken($color, 30);
+  //mas claro
+  box-shadow: 0 0 5px lighten($color, 30);
+  
+}
+.column-footer {
+    @include flex(inline-flex,space-between,stretch);
+}
+
+.navigation {
+    @include flex($ai:center);
+}
+
+//los place holders sirven para ahoorarr bloques de codigo
+// al momento de compilar son uno solo y no se repiten 
+.special-text {
+    @extend %fontSizeLarge;
+}
+
+.input-text {
+  @extend %fontSizeLarge;
+}

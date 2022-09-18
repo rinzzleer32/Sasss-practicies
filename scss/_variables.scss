@@ -1,0 +1,15 @@
+$font-san-serif: 'Arial', sans-serif;
+$font-alternative: 'Times New Roman', serif;
+$font-sm: 20px;
+
+//size
+$sm-viewport:460px;
+$md-viewport:720px;
+
+//array of variables
+$viewport: (
+    "sm": 460px,
+    "md": 720px,
+);
+
+$color: rgb(7, 207, 33);

@@ -1,0 +1,13 @@
+
+//una mixing es una funcion en scss reutilizable
+// esta puede o no recibir parametros de codigo
+// puedo agregar valores por defecto a los parametros
+// ademas de de agragar variables opcionales
+
+@mixin flex($df:flex,$jc:start,$ai:start) {
+    display: flex;
+    flex-wrap: $df;
+    justify-content: $jc;
+    align-items: $ai;
+    
+}

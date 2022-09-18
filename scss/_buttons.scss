@@ -1,0 +1,24 @@
+.btn {
+    padding: 15px 30px;
+    background-color: salmon;
+    //es un hijo de btn es lo mismo que btn:hover
+    //se usa & para concatenar
+    &:hover {
+        background-color:chocolate;
+    }
+    //anidamiento
+    &-lg{
+        font-size:30 px;
+        //se puede concatenar una infinidad de veces 
+        &-bg-blue{
+            background-color:blue;
+        }
+    }
+    // sin & se refiere a un elemento que requiere btn pero siendo totalmente diferente
+
+    span{
+        background-color: blue;
+        font-style: italic;
+    }
+}
+

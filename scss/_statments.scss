@@ -1,0 +1,27 @@
+$names: "small", "medium", "large", "xlarge";
+
+//loop para n cantidad de elementos
+@for $i from 1 through 12 {
+    color: blue;
+  }
+// loop para n cantidad de un objeto
+@each $name in $names {
+    color: blue;
+  }
+
+$types:(
+    "cool": Tahoma,
+    "hot": Arial,
+    "warm": Verdana,
+    "cold": Helvetica
+);
+
+@each $type, $font in $types {
+    @if $type != "cool" {
+        color: blue;
+    }
+    .#{$type} {
+        font-family: $font;
+        font-size: 13px;
+    }
+}
